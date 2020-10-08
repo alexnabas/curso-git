@@ -17,7 +17,7 @@ namespace Aula93
             TimeSpan interval = date2 - date1;
             Console.WriteLine("{0} - {1} = {2}", date2, date1, interval.ToString());
 
-            Console.WriteLine();
+            Console.WriteLine("---------------------");
 
             Console.WriteLine("d1: "+d1);
             Console.WriteLine("d1.Kind: "+d1.Kind);
