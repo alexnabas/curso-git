@@ -17,7 +17,7 @@ namespace Aula93
             TimeSpan interval = date2 - date1;
             Console.WriteLine("{0} - {1} = {2}", date2, date1, interval.ToString());
 
-            Console.WriteLine("---------------------");
+            Console.WriteLine("---------------------====");
 
             Console.WriteLine("d1: "+d1);
             Console.WriteLine("d1.Kind: "+d1.Kind);
@@ -29,6 +29,7 @@ namespace Aula93
             Console.WriteLine("d2.Local: " + d2.ToLocalTime());
             Console.WriteLine("d2.Utc: " + d2.ToUniversalTime());
 
+            Console.WriteLine("----------------------------");
             Console.WriteLine();
             Console.WriteLine("d3: " + d3);
             Console.WriteLine("d3.Kind: " + d3.Kind);
